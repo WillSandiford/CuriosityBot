@@ -12,6 +12,9 @@ The experiment will run for 25 episodes for a curious agent by default. After co
 File Structure:
 
 main.py: Initialises an agent and begins the training process
+
 models.py: Contains code of all the models relevant for the REINFORCE algorithm and the ICM (including feature encoder)
+
 environment_interface.py: Contains code for controlling the agent and interacting with the minecraft environment.
+
 reinforce.py: Runs the REINFORCE algorithm, collecting trajectories and trains the policy and ICM.
